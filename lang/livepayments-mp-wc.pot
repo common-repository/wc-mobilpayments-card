@@ -1,0 +1,882 @@
+# Copyright (C) 2021 Alexandru Boia
+# This file is distributed under the same license as the LivePayments - mobilPay Card WooCommerce Payment Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LivePayments - mobilPay Card WooCommerce Payment Gateway 0.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/livepayments-mp-wc\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-27T18:36:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: livepayments-mp-wc\n"
+
+#. Plugin Name of the plugin
+msgid "LivePayments - mobilPay Card WooCommerce Payment Gateway"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/alexboia/LivePayments-MP-WC"
+msgstr ""
+
+#. Description of the plugin
+msgid "LivePayments is a Credit & Debit Card WooCommerce Payment Gateway that uses the Romanian mobilPay payment processor."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alexandru Boia"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://alexboia.net"
+msgstr ""
+
+#: lib/Formatters.php:38
+#: views/lvdwcmc-admin-transaction-details.php:51
+#: views/lvdwcmc-admin-transactions-listing.php:158
+#: views/lvdwcmc-email-transaction-details.php:52
+#: views/lvdwcmc-frontend-transaction-details.php:54
+msgid "Transaction Id"
+msgstr ""
+
+#: lib/Formatters.php:43
+#: views/lvdwcmc-admin-transaction-details.php:57
+#: views/lvdwcmc-admin-transactions-listing.php:168
+#: views/lvdwcmc-frontend-transaction-details.php:60
+msgid "Transaction status"
+msgstr ""
+
+#: lib/Formatters.php:48
+#: views/lvdwcmc-admin-transaction-details.php:63
+#: views/lvdwcmc-admin-transactions-listing.php:172
+#: views/lvdwcmc-email-transaction-details.php:56
+#: views/lvdwcmc-frontend-transaction-details.php:66
+msgid "Card number"
+msgstr ""
+
+#: lib/Formatters.php:53
+#: views/lvdwcmc-admin-transaction-details.php:69
+#: views/lvdwcmc-admin-transactions-listing.php:182
+#: views/lvdwcmc-frontend-transaction-details.php:72
+msgid "Original amount"
+msgstr ""
+
+#: lib/Formatters.php:58
+#: views/lvdwcmc-admin-transaction-details.php:75
+#: views/lvdwcmc-admin-transactions-listing.php:186
+#: views/lvdwcmc-frontend-transaction-details.php:78
+msgid "Actually processed amount"
+msgstr ""
+
+#: lib/Formatters.php:63
+#: views/lvdwcmc-admin-transaction-details.php:81
+#: views/lvdwcmc-admin-transactions-listing.php:62
+#: views/lvdwcmc-admin-transactions-listing.php:190
+#: views/lvdwcmc-frontend-transaction-details.php:84
+msgid "Date initiated"
+msgstr ""
+
+#: lib/Formatters.php:68
+#: views/lvdwcmc-admin-transaction-details.php:87
+#: views/lvdwcmc-admin-transactions-listing.php:194
+#: views/lvdwcmc-frontend-transaction-details.php:90
+msgid "Date of last activity"
+msgstr ""
+
+#: lib/Formatters.php:75
+#: views/lvdwcmc-admin-transaction-details.php:93
+#: views/lvdwcmc-admin-transactions-listing.php:199
+#: views/lvdwcmc-frontend-transaction-details.php:96
+msgid "Transaction error code"
+msgstr ""
+
+#: lib/Formatters.php:80
+#: views/lvdwcmc-admin-transaction-details.php:97
+#: views/lvdwcmc-admin-transactions-listing.php:203
+#: views/lvdwcmc-frontend-transaction-details.php:101
+msgid "Transaction error message"
+msgstr ""
+
+#: lib/Formatters.php:88
+#: views/lvdwcmc-admin-transaction-details.php:103
+#: views/lvdwcmc-admin-transactions-listing.php:209
+msgid "Client IP Address"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:556
+msgid "Card has a risk (i.e. stolen card)"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:557
+msgid "Card number is incorrect"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:558
+msgid "Closed card"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:559
+msgid "Card is expired"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:560
+msgid "Insufficient funds"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:561
+msgid "CVV2 code incorrect"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:562
+msgid "Issuer is unavailable"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:563
+msgid "Amount is incorrect"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:564
+msgid "Currency is incorrect"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:565
+msgid "Transaction not permitted to cardholder"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:566
+#: lib/MobilpayCardPaymentProcessor.php:569
+msgid "Transaction declined"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:567
+msgid "Transaction rejected by antifraud filters"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:568
+msgid "Transaction declined (breaking the law)"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:570
+msgid "Invalid request"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:571
+msgid "Duplicate PREAUTH"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:572
+msgid "Duplicate AUTH"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:573
+msgid "You can only CANCEL a preauth order"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:574
+msgid "You can only CONFIRM a preauth order"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:575
+msgid "You can only CREDIT a confirmed order"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:576
+msgid "Credit amount is higher than auth amount"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:577
+msgid "Capture amount is higher than preauth amount"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:578
+msgid "Duplicate request"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:579
+msgid "Generic error"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:588
+msgid "The amount you paid has been refuned. The order has been marked as refunded as well. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:593
+msgid "The paid amount has been refuned. The order has been marked as refunded as well. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:598
+msgid "The paid amount has been refuned. The order has been marked as refunded as well."
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:602
+msgid "Partial refund notification received from MobilPay gateway. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:607
+msgid "The payment has been cancelled. The order has been cancelled as well. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:612
+msgid "Your payment has been cancelled. The order has been cancelled as well. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:617
+msgid "Your payment has been cancelled. The order has been cancelled as well."
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:621
+msgid "Order payment is currently being processed. The order has been placed on-hold. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:626
+msgid "Your payment is currently being processed. Your order has been placed on-hold. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:631
+msgid "Your payment is currently being processed and the order has been placed on-hold"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:635
+msgid "The order has been placed on hold as the processed amount is smaller than the total order amount (%s vs. %s). Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:642
+msgid "The order has been placed on hold as the processed amount is smaller than the total order amount (%s RON vs. %s RON). Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:649
+msgid "The order has been placed on hold as the processed amount is smaller than the total order amount"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:653
+msgid "Error processing payment: %s (code: %s). Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:660
+msgid "The payment has failed. See order notes for additional details"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:664
+msgid "Your payment has been successfully received. Your order is now completed. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:669
+msgid "The payment has been successfully received. The order is now completed. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:674
+msgid "The payment has been successfully received. The order is now completed"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:678
+msgid "Your payment has been successfully received. Your order is currently being processed. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:683
+msgid "The payment has been successfully received. The order is currently being processed. Transaction id: %s"
+msgstr ""
+
+#: lib/MobilpayCardPaymentProcessor.php:688
+msgid "The payment has been successfully received. The order is currently being processed."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:136
+msgid "LivePayments Card Gateway via mobilPay"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:137
+msgid "LivePayments - mobilPay Payment Gateway for WooCommerce"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:149
+msgid "mobilPay&trade; Card Gateway"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:321
+msgid "Enable / Disable"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:322
+msgid "Enable this payment gateway"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:327
+msgid "mobilPay&trade; Sandbox / Test Mode"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:328
+msgid "Enable Test Mode"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:330
+msgid "Place the payment gateway in test mode."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:334
+msgid "Title"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:336
+msgid "Payment title the customer will see during the checkout process."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:337
+msgid "LivePayments via mobilPay"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:340
+msgid "Description"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:342
+msgid "Payment description the customer will see during the checkout process."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:346
+msgid "Seller Account ID"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:348
+msgid "This is Account ID provided by MobilPay when you signed up for an account. Unique key for your seller account for the payment process."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:351
+msgid "Return URL"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:353
+msgid "You must create a new page and in the content field enter the shortcode [lvdwcmc_display_mobilpay_order_status] so that the user can see the message that is returned by the Mobilpay server regarding their transaction. Or any content you want to thank for buying."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:357
+msgid "mobilPay&trade; digital certificate for the live environment"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:358
+msgid "The public key used for securing communication with the mobilPay&trade; gateway in the live environment."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:362
+#: lib/MobilpayCreditCardGateway.php:373
+#: lib/MobilpayCreditCardGateway.php:384
+#: lib/MobilpayCreditCardGateway.php:395
+msgid "allowed file types: %s"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:368
+msgid "The private key for the live environment"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:369
+msgid "The private key used for securing communication with the mobilPay&trade; gateway in the live environment."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:379
+msgid "mobilPay&trade; digital certificate for the sandbox environment"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:380
+msgid "The public key used for securing communication with the mobilPay&trade; gateway in the sandbox environment (used when \"MobilPay Sandbox / Test Mode\"  is checked)."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:390
+msgid "The private key for the sandbox environment"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:391
+msgid "The private key used for securing communication with the mobilPay&trade; gateway in the sandbox environment (used when \"MobilPay Sandbox / Test Mode\"  is checked)."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:458
+msgid "The %s payment gateway requires further configuration until it can be used to accept payments. The following fields are missing or require your attention:"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:461
+msgid "The %s payment gateway is configured and ready to use."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:736
+msgid "Payment asset file successfully removed."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:737
+msgid "Payment asset file could not be removed."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:792
+msgid "Thank you for your order"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:895
+msgid "The value for the field %s is a valid URL, but no longer corresponds to an existing local page"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:900
+msgid "The value for the field %s is no longer a valid URL"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:917
+msgid "The payment asset file %s is not a valid public key certificate"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:922
+msgid "The payment asset file %s is not a valid private key"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:927
+msgid "The payment asset file %s is empty"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:931
+msgid "The payment asset file %s was not found"
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:1094
+msgid "Error initiating MobilPay card payment."
+msgstr ""
+
+#: lib/MobilpayCreditCardGateway.php:1358
+msgid "Payment for order #%s."
+msgstr ""
+
+#: lib/MobilpayCreditCardGatewayDiagnosticsEmail.php:8
+msgid "LivePayments - mobilPay Card WooCommerce Payment Gateway - Gateway diagnostics warning e-mail"
+msgstr ""
+
+#: lib/MobilpayCreditCardGatewayDiagnosticsEmail.php:9
+msgid "An e-mail sent to a configured e-mail address when the plug-in detects that something is wrong with the gateway configuration."
+msgstr ""
+
+#: lib/MobilpayCreditCardGatewayDiagnosticsEmail.php:11
+#: lib/MobilpayCreditCardGatewayDiagnosticsEmail.php:12
+msgid "mobilPay Card Gateway Configuration Warning"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:146
+msgid "Cancelled"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:148
+msgid "Confirmed. Payment successful"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:150
+msgid "Pending confirmation"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:152
+msgid "Credited"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:154
+msgid "Failed"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:156
+msgid "Started"
+msgstr ""
+
+#: lib/MobilpayTransaction.php:158
+msgid "Pending payment"
+msgstr ""
+
+#: lib/Plugin.php:187
+msgid "Could not activate plug-in: activation failure."
+msgstr ""
+
+#: lib/Plugin.php:202
+msgid "Could not activate plug-in: requirements not met."
+msgstr ""
+
+#: lib/Plugin.php:208
+msgid "Minimum required PHP version is %s."
+msgstr ""
+
+#: lib/Plugin.php:210
+msgid "Minimum required WordPress version is %s."
+msgstr ""
+
+#: lib/Plugin.php:212
+msgid "Mysqli extension was not found on your system or is not fully compatible."
+msgstr ""
+
+#: lib/Plugin.php:214
+msgid "Openssl extension was not found on your system or is not fully compatible."
+msgstr ""
+
+#: lib/Plugin.php:216
+msgid "The installation failed."
+msgstr ""
+
+#: lib/Plugin.php:224
+msgid "Activation error"
+msgstr ""
+
+#: lib/PluginMenu.php:28
+#: lib/PluginMenu.php:29
+msgid "LivePayments Card Transactions"
+msgstr ""
+
+#: lib/PluginMenu.php:35
+msgid "Livepayments-MP-WC"
+msgstr ""
+
+#: lib/PluginMenu.php:36
+#: lib/PluginMenu.php:44
+#: views/lvdwcmc-plugin-settings.php:43
+msgid "LivePayments - mobilPay Card WooCommerce Payment Gateway - Plugin Settings"
+msgstr ""
+
+#: lib/PluginMenu.php:43
+msgid "Plugin Settings"
+msgstr ""
+
+#: lib/PluginMenu.php:48
+msgid "Gateway Settings"
+msgstr ""
+
+#: lib/PluginMenu.php:49
+msgid "LivePayments - mobilPay Card WooCommerce Payment Gateway - Gateway Settings"
+msgstr ""
+
+#: lib/PluginMenu.php:53
+msgid "Plugin Diagnostics"
+msgstr ""
+
+#: lib/PluginMenu.php:54
+#: views/lvdwcmc-plugin-diagnostics.php:35
+msgid "LivePayments - mobilPay Card WooCommerce Payment Gateway - Plugin Diagnostics"
+msgstr ""
+
+#: lib/pluginModules/AdminTransactionDetailsModule.php:262
+msgid "&laquo;"
+msgstr ""
+
+#: lib/pluginModules/AdminTransactionDetailsModule.php:263
+msgid "&raquo;"
+msgstr ""
+
+#: lib/pluginModules/OrderTransactionSupportModule.php:154
+#: views/lvdwcmc-frontend-transaction-details.php:35
+msgid "Payment transaction details"
+msgstr ""
+
+#: lib/pluginModules/PluginSettingsModule.php:135
+msgid "Please fill in a valid e-mail address to which diagnostics warnings will be sent."
+msgstr ""
+
+#: lib/pluginModules/PluginSettingsModule.php:155
+#: lib/TranslatedScriptMessages.php:114
+#: lib/TranslatedScriptMessages.php:115
+msgid "The settings could not be saved. Please try again."
+msgstr ""
+
+#: lib/pluginModules/WordPressDashboardReportingWidgetsModule.php:91
+msgid "LivePayments Card Transaction Status"
+msgstr ""
+
+#: lib/SystemInfoPropertiesProvider.php:46
+msgid "Plugin version"
+msgstr ""
+
+#: lib/SystemInfoPropertiesProvider.php:50
+msgid "WordPress version"
+msgstr ""
+
+#: lib/SystemInfoPropertiesProvider.php:54
+msgid "PHP version"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:37
+msgid "Could not load transaction details data"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:39
+msgid "Could not load transaction details data due to a possible network issue"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:46
+msgid "Reload page"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:48
+msgid "LivePayments for Mobilpay - Transaction Reporting"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:50
+msgid "Transactions Status Counts"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:52
+msgid "Last Transaction"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:54
+msgid "Data not found!"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:56
+msgid "No transactions data found"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:58
+msgid "No transactions status counts data found"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:60
+msgid "Error loading data"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:62
+msgid "The last transaction details data could not be loaded due to an internal server issue. Please try again."
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:64
+msgid "The transactions status counts data could not be loaded due to an internal server issue. Please try again."
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:71
+#: lib/TranslatedScriptMessages.php:85
+msgid "The selected file is too large. Maximum allowed size is 10MB"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:73
+#: lib/TranslatedScriptMessages.php:83
+msgid "The selected file type is not valid."
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:75
+#: lib/TranslatedScriptMessages.php:77
+msgid "The file could not be read"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:79
+msgid "The uploader could not be initialized"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:81
+#: lib/TranslatedScriptMessages.php:91
+msgid "The file could not be uploaded"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:87
+msgid "No file was uploaded"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:89
+msgid "The file could not be uploaded due to a possible internal server issue"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:93
+msgid "Remove asset file? This action cannot be undone and you will have to re-upload the asset again!"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:95
+msgid "The asset file could not be removed"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:97
+msgid "The asset file could not be removed due to a possible network issue"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:99
+msgid "The file has been successfully uploaded"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:101
+msgid "The file has been successfulyl removed"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:103
+msgid "The return URL has been successfully generated."
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:105
+msgid "The return URL could not generated."
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:107
+msgid "The return URL could not be generated due to a possible network issue"
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:113
+msgid "The settings have been successfully saved."
+msgstr ""
+
+#: lib/TranslatedScriptMessages.php:121
+msgid "Please wait..."
+msgstr ""
+
+#: tests/test-Shortcodes.php:105
+#: views/lvdwcmc-payment-status.php:36
+msgid "Your payment could not be processed or has been cancelled."
+msgstr ""
+
+#: tests/test-Shortcodes.php:109
+#: views/lvdwcmc-payment-status.php:38
+msgid "Your payment is currently being processed."
+msgstr ""
+
+#: tests/test-Shortcodes.php:112
+#: tests/test-Shortcodes.php:122
+#: views/lvdwcmc-admin-transactions-listing.php:61
+#: views/lvdwcmc-payment-status.php:39
+#: views/lvdwcmc-payment-status.php:43
+msgid "Order Id"
+msgstr ""
+
+#: tests/test-Shortcodes.php:115
+#: tests/test-Shortcodes.php:125
+#: views/lvdwcmc-payment-status.php:40
+#: views/lvdwcmc-payment-status.php:44
+msgid "Detailed order status"
+msgstr ""
+
+#: tests/test-Shortcodes.php:119
+#: views/lvdwcmc-payment-status.php:42
+msgid "We have successfully received your payment"
+msgstr ""
+
+#: views/emails/lvdwcmc-gateway-diagnostics-warning.php:42
+#: views/emails/plain/lvdwcmc-gateway-diagnostics-warning.php:41
+msgid "There are some issues with your mobilPay Card Payment gateway configuration"
+msgstr ""
+
+#: views/lvdwcmc-admin-notices-missing-required-plugins.php:37
+msgid "The LivePayments – mobilPay Card WooCommerce Payment Gateway plug-in requires the following plug-ins are currently missing:"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:63
+msgid "Status"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:64
+msgid "Amount"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:65
+msgid "Processed amount"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:71
+msgid "Actions"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:108
+msgid "Details"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:120
+msgid "There are no transactions matching your criteria"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:141
+msgid "Transaction details"
+msgstr ""
+
+#: views/lvdwcmc-admin-transactions-listing.php:230
+msgid "Close"
+msgstr ""
+
+#: views/lvdwcmc-email-transaction-details.php:35
+msgid "Card payment transaction details"
+msgstr ""
+
+#: views/lvdwcmc-email-transaction-details.php:61
+msgid "Client IP address"
+msgstr ""
+
+#: views/lvdwcmc-gateway-return-url-field.php:54
+msgid "Generate it for me"
+msgstr ""
+
+#: views/lvdwcmc-gateway-settings-js.php:35
+#: views/lvdwcmc-gateway-upload-asset-field.php:45
+msgid "The file has already been uploaded."
+msgstr ""
+
+#: views/lvdwcmc-gateway-settings-js.php:39
+#: views/lvdwcmc-gateway-upload-asset-field.php:49
+msgid "Remove"
+msgstr ""
+
+#: views/lvdwcmc-gateway-settings-js.php:46
+#: views/lvdwcmc-gateway-upload-asset-field.php:54
+msgid "Chose a file from disk"
+msgstr ""
+
+#: views/lvdwcmc-payment-form.php:93
+msgid "You will be automatically redirected to the payment page in"
+msgstr ""
+
+#: views/lvdwcmc-payment-form.php:95
+msgid "seconds"
+msgstr ""
+
+#: views/lvdwcmc-payment-form.php:115
+msgid "Pay via mobilPay&trade;"
+msgstr ""
+
+#: views/lvdwcmc-payment-form.php:131
+msgid "The payment could not be initialized. This is usually due to an issue with the store itself, so please contact its administrator."
+msgstr ""
+
+#: views/lvdwcmc-payment-form.php:150
+msgid "Retry"
+msgstr ""
+
+#: views/lvdwcmc-plugin-diagnostics.php:41
+msgid "System information"
+msgstr ""
+
+#: views/lvdwcmc-plugin-diagnostics.php:59
+msgid "Gateway diagnostics"
+msgstr ""
+
+#: views/lvdwcmc-plugin-diagnostics.php:70
+msgid "Everything appears to be functioning normally."
+msgstr ""
+
+#: views/lvdwcmc-plugin-diagnostics.php:75
+msgid "The payment gateway requires further configuration until it can be used to accept payments."
+msgstr ""
+
+#: views/lvdwcmc-plugin-diagnostics.php:79
+msgid "Go to gateway configuration"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:53
+msgid "Checkout payment workflow options"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:62
+msgid "Automatically redirect customer to payment page"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:75
+msgid "Automatically redirect customer to payment page after this number of seconds"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:93
+msgid "Do not wait, redirect immediately"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:107
+#: views/lvdwcmc-plugin-settings.php:163
+msgid "Save settings"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:119
+msgid "Diagnostics options"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:128
+msgid "Monitor gateway diagnostics"
+msgstr ""
+
+#: views/lvdwcmc-plugin-settings.php:141
+msgid "Send gateway diagnostics warnings to this address"
+msgstr ""
